@@ -1,0 +1,127 @@
+@media screen and (max-width:576px) {
+    /* Banner */
+    .banner{
+      margin-top: 20px;
+      margin-right: 5px;
+  }
+    .banner-container{
+      display: grid;
+      width: 330px;
+      height: 600px;
+      border-radius: 20px;
+      color: white;
+      align-items: center;
+      padding-left: 3px;
+  }
+      .banner-description h1{
+          display: block;
+          text-align: center;
+          width: 100%;
+          font-size: 30px;
+          line-height: 40px;
+          padding: 10px 20px;
+      }
+      .banner-description p{
+          display: none;
+      }
+      /* ellipse */
+  .ellepsis p {
+      display:flex;
+      width: 100%;
+      font-size: 14px;
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 0 20px;
+    }
+    #upcoming banner image{
+      width: 80%;
+      padding-left: 55px;
+    }
+    #upcoming-banner-image img{
+      width: 120%;
+    }
+    .banner-image{
+      width: 100%; 
+  }
+  .banner-image img{
+      width: 100%; 
+  }
+  .buttons{
+    display: flex;
+    justify-content: center;
+  }
+  .button{
+      padding: 8px 30px;
+  }
+  /* Articals */
+  .artical-container {
+      margin-top: 10px;
+      display: grid;
+      justify-content: center;
+    }
+    .artical-blog-section {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 30px;
+      margin-top: 24px;
+    }
+    .artical-button {
+      width: 210px;
+      height: 176px;
+      background: rgb(255, 254, 254);
+      text-align: center;
+      margin-right: 0px;
+      border-radius: 8px;
+      padding-top: 0px;
+      margin: 0 120px;
+  
+    }
+    .artical-button a {
+      margin: 15px 15px;
+    }
+    .blog-section-content {
+      margin: 0 50px;
+    }
+  
+     /* footer Section  */
+     .footer-section {
+      margin-top: 50px;
+      text-align: center;
+      background: black;
+      color: white;
+      margin-right: 0%;
+    }
+    .footer-section h1 {
+      padding: 40px 50px;
+    }
+    .footer-line {
+      width: 80%;
+      margin: 0 auto;
+      opacity: 0.2;
+      margin-bottom:20px;
+    }
+    .footer-menu {
+      display: grid;
+    }
+    /* For Upcoming Match site */
+    .match-schedule {
+      grid-template-columns: repeat(1, 1fr);
+      margin-left: 50px;
+  }
+  .match-details {
+      padding: 30px;
+      border-radius: 7px;
+      height: 200px;
+      width: 350px;
+  }
+  .match-team h2 {
+      font-weight: 500;
+      font-size: 15px;
+      margin-left: 20px;
+  }
+  .ger img,
+  .france img {
+      width: 100%;
+      padding-left: 10px;
+  }
+  }
